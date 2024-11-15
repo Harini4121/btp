@@ -1,0 +1,98 @@
+<mvc:View controllerName="project1.controller.View2"
+   	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m">
+	  <Page id="page" title="{i18n>title}">
+       <content> 
+           <Label id="_IDGenLabel1" text="check the below details before submitting "/>
+        	<VBox id="_IDGenVBox1" class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormToolbar"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			labelSpanXL="4"
+			labelSpanL="3"
+			labelSpanM="4"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="4"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="1"
+			columnsM="1"
+			singleContainerFullSize="false"
+			ariaLabelledBy="Title1" >
+			<f:toolbar>
+				<Toolbar id="TB1">
+					<Title id="Title1" text="Address"/>
+					<ToolbarSpacer id="_IDGenToolbarSpacer1" />
+					<Button id="_IDGenButton1" icon="sap-icon://settings"/>
+					<Button id="_IDGenButton2" icon="sap-icon://drop-down-list" />
+				</Toolbar>
+			</f:toolbar>
+        <HBox id="_IDGenHBox1" >
+        <Label id="_IDGenLabel2" required="true" text="Business owner"/>
+		<Text id="_IDGenInput1" text="{/Business owner}">
+        </Text>
+          </HBox>
+        <Label id="_IDGenLabel3" required="true" text="Business name"/>
+        <Text id="_IDGenInput2" text="{/Business name}">
+        </Text>
+        <Label id="_IDGenLabel4" required="true" text="contact number"/>
+        <Text id="_IDGenInput3" text="{/contact number}">
+        </Text>
+        <Label id="_IDGenLabel5" required="true" text="Email"/>
+        <Text id="_IDGenInput4" text="{/Email}">
+        </Text>
+      
+			<f:content>
+				<Toolbar id="_IDGenToolbar1" ariaLabelledBy="Title2">
+					<Title id="Title2" text="Office"/>
+					<ToolbarSpacer id="_IDGenToolbarSpacer2" />
+					<Button id="_IDGenButton3" icon="sap-icon://settings"/>
+				</Toolbar>
+				<Label id="_IDGenLabel6" text="Business Name" />
+				<Text id="_IDGenInput5" text="{/SupplierName}" />
+				<Label id="_IDGenLabel7" text="Street/No." />
+				<Text id="_IDGenInput6" text="{/Street}" >
+				</Text>
+				<Text id="_IDGenInput7">
+					<layoutData>
+						<l:GridData id="_IDGenGridData1" span="XL2 L1 M3 S4" />
+					</layoutData>
+				</Text>
+				<Label id="_IDGenLabel8" text="ZIP Code/City" />
+				<Text id="_IDGenInput8" text="{/ZIPCode}">
+				</Text>
+				<Label id="_IDGenLabel9" text="State" />
+				<Text id="_IDGenInput" text="{/State}" >
+				</Text>
+				<!--<Toolbar id="_IDGenToolbar2" ariaLabelledBy="Title3">
+					<Title id="Title3" text="Online"/>
+					<ToolbarSpacer id="_IDGenToolbarSpacer3" />
+					<Button id="_IDGenButton4" icon="sap-icon://settings"/>
+				</Toolbar>
+				<Label id="_IDGenLabel10" text="Web" />
+				<Text id="_IDGenInput10" />
+				<Label id="_IDGenLabel11" text="Twitter" />
+				<Text id="_IDGenInput11" />-->
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+        </content>
+		<footer>
+		<Toolbar id="ok">
+		<content>
+		<ToolbarSpacer id="io"></ToolbarSpacer>
+			<Button id="iot" text="Back to Home" press = "back" ></Button>
+  
+	   </content>
+		</Toolbar>
+		</footer>
+
+    </Page>
+</mvc:View>
+

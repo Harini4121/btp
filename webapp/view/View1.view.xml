@@ -1,0 +1,155 @@
+<mvc:View xmlns:upload="sap.m.upload" xmlns:unified="sap.ui.unified" controllerName="project1.controller.View1"
+   	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+	 <Label id="_IDGenLabel1" text="FOR BUSINESS REGISTERATION ,FILL THE BELOW FORM"/>
+       <content> 
+	   <ImageContent id="_IDGenImageContent1"
+		class="sapUiLargeMarginTop sapUiLargeMarginBottom"
+		src="https://www.pngkey.com/png/full/371-3714506_company-registration-logo-registration-business-registration.png"
+		description="profile image"
+		press="press">
+	</ImageContent>
+        	<VBox id="_IDGenVBox1" class="sapUiSmallMargin">
+			
+		<f:SimpleForm id="SimpleFormToolbar"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			labelSpanXL="4"
+			labelSpanL="3"
+			labelSpanM="4"
+			labelSpanS="12" 
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="4"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="1"
+			columnsM="1"
+			singleContainerFullSize="false"
+			ariaLabelledBy="Title1" >
+			<f:toolbar>
+				<Toolbar id="TB1">
+					<Title id="Title1" text="DETAILS"/>
+					<ToolbarSpacer id="_IDGenToolbarSpacer1" />
+					<Button id="_IDGenButton1" icon="sap-icon://settings"/>
+					<Button id="_IDGenButton2" icon="sap-icon://drop-down-list" />
+				</Toolbar>
+			</f:toolbar>
+			<f:content>
+				<Toolbar id="_IDGenToolbar1" ariaLabelledBy="Title2">
+					<Title id="Title2" text="FILL THE DETAILS"/>
+					<ToolbarSpacer id="_IDGenToolbarSpacer2" />
+					<Button id="_IDGenButton3" icon="sap-icon://settings"/>
+				</Toolbar>
+        <HBox id="_IDGenHBox1" >
+        <Label id="_IDGenLabel2" required="true" text="Business owner"/>
+		<Input id="_IDGenInput1" required ='true'  valueStateText="Business owner name required" valueState="Error" value="{/Business owner}">
+        </Input>
+        <Input id="_IDGenInput19">
+        </Input>
+          </HBox>
+        <Label id="_IDGenLabel3" required="true" text="Business name"/>
+        <Input id="_IDGenInput2" required ='true'  valueStateText="Business name required" valueState="Error" value="{/Business name}">
+        </Input>
+        <Label id="_IDGenLabel4" required="true" text="contact number"/>
+        <Input id="_IDGenInput3" valueStateText="contact no required" valueState="Error" value="{/contact number}">
+        </Input>
+        <Label id="_IDGenLabel5" required="true" text="Email"/>
+        <Input id="_IDGenInput4">
+        </Input>
+				<Label id="_IDGenLabel6" text="Business Name" />
+				<Input id="_IDGenInput5" valueStateText="business name" valueState="Error" value="{/SupplierName}" />
+				<Label id="_IDGenLabel7" text="Street/No." />
+				<Input id="_IDGenInput6"  valueStateText="street no" valueState="Error" value="{/Street}">
+				</Input>
+				<Input id="_IDGenInput7" value="{HouseNumber}">
+					<layoutData>
+						<l:GridData id="_IDGenGridData1" span="XL2 L1 M3 S4" />
+					</layoutData>
+				</Input>
+				<Label id="_IDGenLabel8" text="ZIP Code/City" />
+				<Input id="_IDGenInput8" valueStateText="pincode required" valueState="Error" value="{/ZIPCode}">
+					<layoutData>
+						<l:GridData id="_IDGenGridData2" span="XL2 L1 M3 S4" />
+					</layoutData>
+				</Input>
+				<Input id="_IDGenInput9" value="{City}" />
+				<Label id="_IDGenLabel9" text="State" />
+				<Select id="state" selectedKey="{/State}">
+					<items>
+					<core:Item id="_IDGenItem258" text="--select--" key="Corpor87ation"/>
+						<core:Item id="_IDGenItem1" text="Andhra pradesh" key="Andhra pradesh"/>
+						<core:Item id="_IDGenItem2" text="Telanga" key="Telangana"/>
+					</items>
+				</Select>
+					<DatePicker
+							id="DP1"
+							placeholder="Enter Date"
+							change="handleChange"
+							class="sapUiSmallMarginBottom"/>
+				<Toolbar id="_IDGenToolbar2" ariaLabelledBy="Title3">
+					<Title id="Title3" text="Online"/>
+					<ToolbarSpacer id="_IDGenToolbarSpacer3" />
+					<Button id="_IDGenButton4" icon="sap-icon://settings"/>
+				</Toolbar>
+				<Label id="_IDGenLabel10" text="Web" />
+				<Input id="_IDGenInput10" value="{Url}" type="Url" />
+				<Label id="_IDGenLabel11" text="Twitter" />
+				<Input id="_IDGenInput11" value="{Twitter}" />
+				<Label id="_IDGenLabel181" text="upload Licence">
+		</Label>
+		<upload:UploadSet id="_IDGenUploadSet1" fileTypes="pdf" ></upload:UploadSet>
+			</f:content>
+		</f:SimpleForm>
+	
+
+     <Label id="_IDGenLabe20" required="true" text="Type of Business"/>
+		<Select id="Type_of_business" selectedKey="{Type of Business}">
+					<items>
+					<core:Item id="_IDGenItem81" text="--select--" key="Corporation89"/>
+						<core:Item id="_IDGenItem8" text="Corporation" key="Corporation"/>
+						<core:Item id="_IDGenItem7" text="Partnership" key="Partnership"/>
+						<core:Item id="_IDGenItem9" text="Cooperative" key="Cooperative"/>
+						<core:Item id="_IDGenItem5" text="Industurial" key="Industurial"/>
+						<core:Item id="_IDGenItem6" text="Limited liability company (LLC)" key="Limited liability company (LLC)"/>
+					</items>
+				</Select>
+		<Label id="_IDGenLabel18" text="upload photo">
+		</Label>
+		<unified:FileUploader id="_IDGenFileUploader1" 
+		placeholder="click here to upload photo">
+		</unified:FileUploader>
+		
+        	</VBox>
+
+		</content>
+		<footer>
+		<Toolbar id="ok">
+		<content>
+		<ToolbarSpacer id="io"></ToolbarSpacer>
+				<Button id="_IDGenButton5" type="Accept"
+						text="Submit"
+						press="onPress"
+						ariaDescribedBy="acceptButtonDescription genericButtonDescription">
+				</Button>
+				<Button id="iot" text="preview" press = "preview" ></Button>
+			
+        </content>
+		</Toolbar>
+		</footer>
+    </Page>
+</mvc:View>
+
+
+
+
+
+
+
+
+
