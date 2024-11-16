@@ -35,8 +35,7 @@ An SAP Fiori application.
 
 #### description:
 
-i have created a basic registration form in btp useing fiori
-
+ The form allows users to input their details such as name, email,and submit them for processing. The form includes basic validation to ensure all fields are completed correctly before submission. The data will be priviewed in the next page throught navigation.
 
 
 
