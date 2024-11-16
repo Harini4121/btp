@@ -45,11 +45,13 @@ Open the project in SAP Business Application Studio.
 Run the application:
 Open the terminal in the workspace.
 Start the application with the command:
-...
-
- npm start
 
 ...
+
+     npm start
+
+...
+
 Access the application in your browser using the provided URL.
 
 #### How to Use:
