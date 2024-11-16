@@ -45,9 +45,9 @@ Open the project in SAP Business Application Studio.
 Run the application:
 Open the terminal in the workspace.
 Start the application with the command:
-
+...
 npm start
-
+...
 Access the application in your browser using the provided URL.
 
 #### How to Use:
@@ -71,7 +71,7 @@ SAP Business Application Studio: Development environment.
 #### Contributing
 Contributions are welcome! Follow these steps:
 
-##Fork the repository.
+## Fork the repository.
 Create a new branch:
 
 git checkout -b feature-name
