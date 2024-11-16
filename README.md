@@ -35,7 +35,54 @@ An SAP Fiori application.
 
 #### description:
 
- The form allows users to input their details such as name, email,and submit them for processing. The form includes basic validation to ensure all fields are completed correctly before submission. The data will be priviewed in the next page throught navigation.
+## REGISTRATION FORM
+The form allows users to input their details such as name, email, and submit them for processing. The form includes basic validation to ensure all fields are completed correctly before submission. The data will be previewed in the next page through navigation.
+
+#### Features
+SAPUI5 Framework: Leverages SAPUI5 for a responsive and dynamic UI.
+
+Open the project in SAP Business Application Studio.
+Run the application:
+Open the terminal in the workspace.
+Start the application with the command:
+
+npm start
+Access the application in your browser using the provided URL.
+
+#### How to Use:
+
+Enter your full name, email, etc. and in the respective fields.
+Click on the "Submit" button.
+If any field is missing or invalid, an error message will be shown.
+On successful submission, the data can be sent to next page by navigation and it gets displayed(e.g., data is successfully saved).
+
+#### Form Validation
+
+Name: Must not be empty.
+Email: Must be a valid email format (e.g., user@example.)
+
+####Technologies Used
+SAPUI5: Framework for developing the front-end.
+OData Services: For backend integration.
+HTML/CSS/JavaScript: Additional customizations.
+SAP Business Application Studio: Development environment.
+Screenshots
+[Include screenshots of the application interface.]
+
+#### Contributing
+Contributions are welcome! Follow these steps:
+
+Fork the repository.
+Create a new branch:
+
+git checkout -b feature-name
+Commit your changes:
+
+git commit -m "Add your message here"
+Push the changes:
 
 
+git push origin feature-name
+
+Open a pull request.
 
