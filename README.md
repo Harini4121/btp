@@ -46,11 +46,9 @@ Run the application:
 Open the terminal in the workspace.
 Start the application with the command:
 
-...
-
-     npm start
-
-...
+```
+    npm start
+```
 
 Access the application in your browser using the provided URL.
 
@@ -78,26 +76,21 @@ Contributions are welcome! Follow these steps:
 ## Fork the repository.
 Create a new branch:
 
-...
-
-git checkout -b feature-name
-
-...
+```
+    git checkout -b feature-name
+```
 
 Commit your changes:
-...
 
-git commit -m "Add your message here"
-
-...
+```
+   git commit -m "Add your message here"
+```
 
 Push the changes:
 
-...
-
-git push origin feature-name
-
-...
+```
+   git push origin feature-name
+```
 
 Open a pull request.
 
