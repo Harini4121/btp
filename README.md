@@ -77,17 +77,30 @@ Contributions are welcome! Follow these steps:
 
 ## Fork the repository.
 Create a new branch:
+...
 
 git checkout -b feature-name
 
+...
 Commit your changes:
+...
 
 git commit -m "Add your message here"
 
+...
 Push the changes:
-
+...
 
 git push origin feature-name
 
+...
+
 Open a pull request.
+
+Contact
+For queries, please contact:9985029117
+
+Email: srivyshnavi4121@gmail.com
+
+GitHub:https://github.com/Harini4121
 
