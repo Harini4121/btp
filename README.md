@@ -71,7 +71,7 @@ SAP Business Application Studio: Development environment.
 #### Contributing
 Contributions are welcome! Follow these steps:
 
-Fork the repository.
+##Fork the repository.
 Create a new branch:
 
 git checkout -b feature-name
