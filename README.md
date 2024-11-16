@@ -77,18 +77,22 @@ Contributions are welcome! Follow these steps:
 
 ## Fork the repository.
 Create a new branch:
+
 ...
 
 git checkout -b feature-name
 
 ...
+
 Commit your changes:
 ...
 
 git commit -m "Add your message here"
 
 ...
+
 Push the changes:
+
 ...
 
 git push origin feature-name
