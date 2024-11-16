@@ -46,7 +46,9 @@ Run the application:
 Open the terminal in the workspace.
 Start the application with the command:
 ...
-npm start
+
+ npm start
+
 ...
 Access the application in your browser using the provided URL.
 
@@ -62,7 +64,7 @@ On successful submission, the data can be sent to next page by navigation and it
 Name: Must not be empty.
 Email: Must be a valid email format (e.g., user@example.)
 
-####Technologies Used
+#### Technologies Used
 SAPUI5: Framework for developing the front-end.
 OData Services: For backend integration.
 HTML/CSS/JavaScript: Additional customizations.
